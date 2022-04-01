@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Avaliação Paraíso do Recanto</title>
+		<link rel="stylesheet" type="text/css" href="formparaiso.css">
+
+	</head>
+
+	<body>
+
+		<div id="container">
+			
+			<form action="https://sheetdb.io/api/v1/c7bc5d5kgt4t5" method="POST" name="Avaliação pdr">
+				
+				<fieldset>
+					<legend class="titulo">Avaliação Paraíso do Recanto</legend><br>
+
+					<div id="cabecalho">
+						<label>É a sua primeira vez aqui?</label><br><br>
+						<input type="radio" name="data[Visitação]" value="Sim" required>Sim
+						<input type="radio" name="data[Visitação]" value="Nao" required>Não
+						<input type="radio" name="data[Visitação]" value="Frequente" required>Venho com frequência
+					</div>
+					<br>
+					<div id="data_visita">
+						Data de hoje<br><br>
+						<input type="date" name="data[Data]" value="" required> 
+					</div>
+					<br>
+					<div id="garçom">
+						<label>Qual o nome dos garçons que atenderam a sua mesa?</label><br><br>
+						<input type="text" name="data[Garçom]" required>
+						
+					</div>
+					<br>
+					<div id="avaliacao-garcom">
+						<label>Como você avalia o atendimento dele(s)?</label><br><br>
+						<input type="radio" name="data[Avaliação do garçom]" value="Péssimo" required>Péssimo
+						<input type="radio" name="data[Avaliação do garçom]" value="Ruim" required>Ruim<br>
+						<input type="radio" name="data[Avaliação do garçom]" value="Regular" required>Regular
+						<input type="radio" name="data[Avaliação do garçom]" value="Bom" required>Bom<br>
+						<input type="radio" name="data[Avaliação do garçom]" value="Excelente" required>Excelente
+					</div>
+					<br>
+					<div id="avaliacao-comida">
+						<label>Como você avalia a qualidade da comida?</label><br><br>
+						<input type="radio" name="data[Avaliação da comida]" value="Péssima" required>Péssima
+						<input type="radio" name="data[Avaliação da comida]" value="Ruim" required>Ruim<br>
+						<input type="radio" name="data[Avaliação da comida]" value="Regular" required>Regular
+						<input type="radio" name="data[Avaliação da comida]" value="Boa" required>Boa<br>
+						<input type="radio" name="data[Avaliação da comida]" value="Excelente" required>Excelente
+					</div>
+					<br>
+					<div id="tempo-comida">
+						<label>Como você avalia o tempo de espera pela comida?</label><br><br>
+						<input type="radio" name="data[Tempo de espera]" value="Muito demorado" required>Muito demorado<br>
+						<input type="radio" name="data[Tempo de espera]" value="Aceitavel" required>Aceitável
+						<input type="radio" name="data[Tempo de espera]" value="Rapido" required>Rápido<br>
+						<input type="radio" name="data[Tempo de espera]" value="Muito rapido" required>Muito rápido
+					</div>
+					<br>
+					<div id="tempo-comida">
+						<label>Nível de satisfação</label><br><br>
+						<input type="range" name="data[Satisfação]">
+					</div>
+					<div id="obs">
+						<label>Deixe aqui sua observação</label><br>
+						<textarea name="data[Mensagem]" placeholder="Digite aqui (opcional)"></textarea>
+					</div>
+					<br>
+					
+					<input id="botao" type="submit" value="Enviar">
+					
+
+
+				</fieldset>
+
+			</form>
+
+		</div>
+
+	</body>
+
+</html>

@@ -1,0 +1,102 @@
+body {
+	background-image: linear-gradient(to right, rgb(20,147,220), rgb(17,54,71));
+}
+
+#container {
+	width: 50%;
+	background-color: rgba(0,0,0,0.6);
+	border: 20px solid rgba(0, 0, 0, 0.1);
+	border-radius: 15px;
+	text-align: center;
+	margin: 80px auto;
+	font-family: Arial, Helvetica, sans-serif;;
+
+}
+
+fieldset {
+	border: 3px solid dodgerblue;
+	color: white;
+}
+
+legend {
+	border: 1px solid dodgerblue;
+    padding: 10px;
+    text-align: center;
+    background-color: dodgerblue;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    font-style: bold;
+}
+
+#cabecalho, #data_visita, #garçom, #avaliacao-garcom, #avaliacao-comida, #tempo-comida, #obs {
+	padding: 8px;
+	font-size: 18px;
+}
+
+#botao {
+	background-image: linear-gradient(to right, rgb(0,92,197), rgb(90,20,220));
+	width: 60%;
+	border: none;
+	padding: 15px;
+	color: white;
+	font-size: 15px;
+	cursor: pointer;
+	border-radius: 10px;
+	margin: 10px auto;
+}
+
+textarea {
+	width: 300px;
+	height: 100px;
+	margin-top: 10px;
+}
+
+#botao:hover {
+	background-image: linear-gradient(to right, rgb(0,80,172), rgb(80,19,195));
+}
+
+#obs {
+	text-align: center;
+}
+
+/*label:hover {
+	background: MidnightBlue;
+	border: 10px solid MidnightBlue;
+	border-radius: 10px;
+	color: white;
+}*/
+
+@media (max-width: 960px) {
+	#container {
+		width: 70%;
+	}
+
+	fieldset {
+		width: 10%;
+		margin: 0px auto;
+	}
+
+	#cabecalho, #data_visita, #garçom, #avaliacao-garcom, #avaliacao-comida, #tempo-comida, #obs {
+		padding: 6px;
+		font-size: 12px;
+	}
+
+	textarea {
+		width: 120px;
+		height: 44px;
+		margin-top: 10px;
+	}
+
+	legend {
+		border: 1px solid dodgerblue;
+	    padding: 8px;
+	    text-align: center;
+	    background-color: dodgerblue;
+	    border-radius: 6px;
+	    color: white;
+	    font-size: 15px;
+	    font-style: bold
+	}
+
+}

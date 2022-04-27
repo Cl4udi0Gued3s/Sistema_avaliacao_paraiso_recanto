@@ -20,16 +20,16 @@ fieldset {
 
 legend {
 	border: 1px solid dodgerblue;
-    padding: 10px;
-    text-align: center;
-    background-color: dodgerblue;
-    border-radius: 8px;
-    color: white;
-    font-size: 20px;
-    font-style: bold;
+    	padding: 10px;
+    	text-align: center;
+    	background-color: dodgerblue;
+    	border-radius: 8px;
+    	color: white;
+    	font-size: 20px;
+    	font-style: bold;
 }
 
-#cabecalho, #data_visita, #garçom, #avaliacao-garcom, #avaliacao-comida, #tempo-comida, #obs {
+#cabecalho, #data_visita, #garcom, #avaliacao-garcom, #avaliacao-comida, #tempo-comida, #obs {
 	padding: 8px;
 	font-size: 18px;
 }
@@ -60,12 +60,6 @@ textarea {
 	text-align: center;
 }
 
-/*label:hover {
-	background: MidnightBlue;
-	border: 10px solid MidnightBlue;
-	border-radius: 10px;
-	color: white;
-}*/
 
 @media (max-width: 960px) {
 	#container {
@@ -90,13 +84,12 @@ textarea {
 
 	legend {
 		border: 1px solid dodgerblue;
-	    padding: 8px;
-	    text-align: center;
-	    background-color: dodgerblue;
-	    border-radius: 6px;
-	    color: white;
-	    font-size: 15px;
-	    font-style: bold
+	    	padding: 8px;
+	   	text-align: center;
+	    	background-color: dodgerblue;
+	    	border-radius: 6px;
+	    	color: white;
+	    	font-size: 15px;
+	    	font-style: bold
 	}
-
 }

@@ -150,7 +150,7 @@ def avaliacomida(argumento):
 avaliacomida(input('Digite ok para iniciar: '))
 
 #-------------------------------------------------------------------
-#Avaliação tempo de esperra
+#Avaliação tempo de espera
 
 def avaliatempo(argumento):
     
